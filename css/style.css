@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+    /* font-family: ; */
+}
+
+:root{
+    /* Colors */
+    --primary-color: ;
+    --secondary-color: ;
+    --text-color: ;
+
+    /* Font Size */
+    --display: ;
+    --heading: ;
+    --subheading: ;
+    --paragraph: ;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+/* Navbar */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.primary-button{
+
+}
+
+.secondary-button{
+
+}
+
+.footer{
+    
+}
