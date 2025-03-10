@@ -11,15 +11,15 @@
 
 :root{
     /* Colors */
-    --primary-color: ;
-    --secondary-color: ;
-    --text-color: ;
+    --primary-color: #3ACAFF;
+    --secondary-color: #FFD600;
+    --text-color: #333335;
+    --bg-color-blue: #D7F0FF;
+    --bg-color-yellow: #FFFCDB;
 
-    /* Font Size */
-    --display: ;
-    --heading: ;
-    --subheading: ;
-    --paragraph: ;
+    /* Border Radius */
+    --big-radius: 9999px;
+    --standard-radius: 20px;
 }
 
 html{
@@ -38,14 +38,26 @@ nav{
     z-index: 100;
 }
 
+/* Buttons */
+.primary-small-button{
+    padding: 16px 30px;
+    border-radius: var(--big-radius, 9999px);
+    border: 2px solid var(--text-color);
+    background: var(--primary-color);
+}
+
+.secondary-small-button{
+    padding: 16px 30px;
+    border-radius: var(--big-radius, 9999px);
+    border: 2px solid var(--text-color);
+    background: var(--primary-color);
+}
+
 .primary-button{
-
-}
-
-.secondary-button{
-
-}
-
-.footer{
-    
+    padding: 30px 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--big-radius, 9999px);
+    border: 2px solid var(--text-color);
+    background: var(--primary-color);
 }
