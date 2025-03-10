@@ -61,3 +61,22 @@ nav{
     border: 2px solid var(--text-color);
     background: var(--primary-color);
 }
+
+.about{ 
+    background: var(--bg-color-blue);
+    padding: 46px;
+    display: grid;
+    place-items: center;
+}
+
+.about .card {
+    padding: 60px;
+    box-shadow: 10px 10px 0px 0px var(--text-color);
+    border: 2px solid var(--text-color);
+    border-radius: var(--standard-radius);
+    width: 80%;
+    background: #ffffff;
+    display: flex;
+    font-size: 16px;
+    text-align: justify;
+}
