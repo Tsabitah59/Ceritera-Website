@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +26,7 @@
 
 html{
     overflow-x: hidden;
+    font-family: "Fredoka";
 }
 
 /* Navbar */
