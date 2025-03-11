@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +26,7 @@
 
 html{
     overflow-x: hidden;
+    font-family: "Fredoka";
 }
 
 /* Navbar */
@@ -36,28 +39,4 @@ nav{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-}
-
-/* Buttons */
-.primary-small-button{
-    padding: 16px 30px;
-    border-radius: var(--big-radius, 9999px);
-    border: 2px solid var(--text-color);
-    background: var(--primary-color);
-}
-
-.secondary-small-button{
-    padding: 16px 30px;
-    border-radius: var(--big-radius, 9999px);
-    border: 2px solid var(--text-color);
-    background: var(--primary-color);
-}
-
-.primary-button{
-    padding: 30px 80px;
-    justify-content: center;
-    align-items: center;
-    border-radius: var(--big-radius, 9999px);
-    border: 2px solid var(--text-color);
-    background: var(--primary-color);
 }
