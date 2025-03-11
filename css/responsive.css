@@ -1,0 +1,44 @@
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    html{
+        font-size: 55%;
+    }
+
+    .wcu-content{
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .wcu-content .circle-number:nth-child(even){
+        right: 27px;
+    }
+
+    .wcu .card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 911px) {
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 617px) {
+    section{
+        padding: 100px 60px;
+    }
+    
+}
+
+@media screen and (max-width: 486px) {
+    section{
+        padding: 100px 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+}

@@ -1,0 +1,9 @@
+@keyframes show-about {
+    from {
+        padding-block: 0px;
+    }
+    
+    to{
+        padding-block: 60px;
+    }
+}
