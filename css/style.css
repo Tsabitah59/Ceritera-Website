@@ -411,6 +411,113 @@ p {
   transition: 800ms ease;
 }
 
+/* Testimonials */
+body {
+    background-color: #FFD600
+}
+.custom-shape-divider-top-1741666089 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1741666089 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1741666089 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.Heading {
+    color: black;
+    text-align: center;
+    font-family: Fredoka;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.custom-shape-divider-bottom-1741663772 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1741663772 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 131px;
+}
+
+.custom-shape-divider-bottom-1741663772 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.testimony{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.testimonial {
+    display: flex;
+width: 420px;
+height: 220px;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+text-align: left;
+gap: 4px;
+flex-shrink: 0;
+border-radius: var(--standard-radius, 20px);
+border: 2px solid var(--text-color, #333335);
+background: #FFF;
+font-family: Fredoka;
+/* default shadow */
+box-shadow: 10px 10px 0px 0px #000035;
+}
+
+.profile {
+    display: flex;
+    width: 433px;
+    align-items: center;
+    gap: 36px;
+    text-align: left;
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.title {
+    font-size: 16px;
+    color: gray;
+}
+.p{
+    color: var(--text-color, #333335);
+    text-align: justify;
+/* Subheading 2 18px/Regular */
+font-family: Fredoka;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+letter-spacing: 0.36px;
+  
 /* Footer */
 footer {
     background: var(--bg-color-blue);
