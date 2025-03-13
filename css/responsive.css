@@ -58,13 +58,13 @@
 }
 
 @media screen and (max-width: 617px) {
-  section {
+  section, footer {
     padding: 100px 60px;
   }
 }
 
 @media screen and (max-width: 486px) {
-  section {
+  section, footer {
     padding: 100px 20px;
   }
 
