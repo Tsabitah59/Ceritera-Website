@@ -1,65 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+
+    <!-- Vanilla CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- Icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
     <!-- Navbar -->
     <nav>
-        <div class="logo">
-            
-        </div>
+      <div class="logo"></div>
 
-        <div class="nav-button">
-            <a href="#"></a>
-            <a href="#"></a>
-        </div>
+      <div class="nav-button">
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
     </nav>
 
     <!-- =============== MAIN SECTION =============== -->
-    
+
     <!-- Home -->
-    <section>
-        <h1 class="primary-small-button">Hello World</h1>
+    <section></section>
+
+    <!-- About -->
+    <section class="about">
+      <div class="card">
+        <p>
+          Hai! Kenalin nih. Ceritera, platform digital untuk para penulis yang
+          ingin aktif menerbitkan karya, serta para pembaca yang mencari
+          pengalaman membaca yang menyenangkan!
+        </p>
+      </div>
     </section>
 
-    <!-- Features (ntar copas aja) -->
-    <section>
+    <!-- Features -->
+    <section class="features">
+      <div class="features-add">
+        <div class="features-lottie slide-left">
+          <dotlottie-player
+            src="https://lottie.host/0f58322c-2529-452a-a5a6-9633e57c6d19/ouYihLW5id.lottie"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+      </div>
 
+      <div class="features-content">
+        <h2 class="slide-right">Tulis Cerita, Kumpulkan Poin, Raih Hadiah!</h2>
+        <p class="slide-right">
+          Platform literasi interaktif yang mendukung penulis dengan poin,
+          perlindungan karya, dan konsultasi!
+        </p>
+
+        <br />
+
+        <div class="features-content">
+          <div class="features-list slide-right">
+            <div class="features-icon">
+              <lord-icon
+                src="https://cdn.lordicon.com/ncitidvz.json"
+                trigger="loop"
+                delay="2000"
+                colors="primary:#ffffff"
+                style="width: 24px; height: 24px"
+              >
+              </lord-icon>
+            </div>
+            <div class="features-item">
+              <h6>Dapatkan Poin & Hadiah</h6>
+              <p>
+                Baca setiap hari, kontribusi, jalankan misi, berkarya dan
+                dapatkan hadiah Ceritera gratis dari poin yang kamu kumpulkan.
+              </p>
+            </div>
+          </div>
+
+          <div class="features-list slide-right">
+            <div class="features-icon">
+              <lord-icon
+                src="https://cdn.lordicon.com/fkdzyfle.json"
+                trigger="loop"
+                delay="2000"
+                colors="primary:#ffffff"
+                style="width: 24px; height: 24px"
+              >
+              </lord-icon>
+            </div>
+            <div class="features-item">
+              <h6>Publikasi Cerita & Plagiarism Checker</h6>
+              <p>
+                Publikasikan ceritamu dengan mudah dan pastikan karyamu asli
+                dengan fitur pengecekan plagiarisme.
+              </p>
+            </div>
+          </div>
+
+          <div class="features-list slide-right">
+            <div class="features-icon">
+              <lord-icon
+                src="https://cdn.lordicon.com/ayhtotha.json"
+                trigger="loop"
+                delay="2000"
+                colors="primary:#ffffff"
+                style="width: 24px; height: 24px"
+              >
+              </lord-icon>
+            </div>
+            <div class="features-item">
+              <h6>Konsultasi Seputar Struggle Menulis</h6>
+              <p>
+                Punya kesulitan dalam menulis? Butuh motivasi atau bimbingan?
+                Dapatkan konsultasi dari sesama penulis dan mentor berpengalaman
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Running Text -->
-    <section>
+    <!-- Why Choose Us? -->
+    <section class="wcu">
+      <div class="custom-shape-divider-top-1741677024">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
 
+      <h2>Apa yang Istimewa dari Ceritera?</h2>
+
+      <div class="wcu-content">
+        <div class="card slide-left">
+          <h2 class="circle-number">1</h2>
+          <h4>Buat</h4>
+          <p>
+            Bagikan cerita unik dan orisinal kamu di sini. Dapatkan referensi
+            dan strategi menulis untuk membantumu mengarang kisah yang hanya
+            dapat kamu ceritakan sendiri.
+          </p>
+        </div>
+
+        <div class="card slide-left">
+          <h2 class="circle-number">2</h2>
+          <h4>Buat</h4>
+          <p>
+            Bagikan cerita unik dan orisinal kamu di sini. Dapatkan referensi
+            dan strategi menulis untuk membantumu mengarang kisah yang hanya
+            dapat kamu ceritakan sendiri.
+          </p>
+        </div>
+
+        <div class="card slide-left">
+          <h2 class="circle-number">3</h2>
+          <h4>Buat</h4>
+          <p>
+            Bagikan cerita unik dan orisinal kamu di sini. Dapatkan referensi
+            dan strategi menulis untuk membantumu mengarang kisah yang hanya
+            dapat kamu ceritakan sendiri.
+          </p>
+        </div>
+      </div>
+
+      <div class="custom-shape-divider-bottom-1741677090">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
     </section>
 
     <!-- Trending Books -->
-    <section>
+    <section class="books">
+      <h2 class="slide-left">Buku-buku Terbaik Lahir di Sini</h2>
 
+      <div class="container slide-right">
+        <div class="swiper book-sliders">
+          <div class="swiper-wrapper">
+            <!-- Start Slider -->
+            <div class="swiper-slide book-slides">
+              <div class="book-content">
+                <img src="asset/img/cover1.png" alt="" />
+                <span class="book-title">Under the Rain</span>
+                <p>Olivia Wilson</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide book-slides">
+              <div class="book-content">
+                <img src="asset/img/cover2.png" alt="" />
+                <span class="book-title">My Secret Hope</span>
+                <p>Donna Stroupe</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide book-slides">
+              <div class="book-content">
+                <img src="asset/img/cover3.png" alt="" />
+                <span class="book-title">Home to You</span>
+                <p>Cloudia Alves</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide book-slides">
+              <div class="book-content">
+                <img src="asset/img/cover4.png" alt="" />
+                <span class="book-title">Your Dream</span>
+                <p>Ketut Susilo</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide book-slides">
+              <div class="book-content">
+                <img src="asset/img/cover5.png" alt="" />
+                <span class="book-title">Midnight World</span>
+                <p>Bailey Dupont</p>
+              </div>
+            </div>
+            <!-- End Slider -->
+          </div>
+
+          <!-- Controller -->
+          <div class="book-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <img src="asset/svg/slide-left.svg" alt="" />
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <img src="asset/svg/slide-right.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        -->
+      </div>
     </section>
 
     <!-- Testimonials -->
+    <section></section>
+
+    <!-- FAQ -->
     <section>
-        
+      <h2 class="slide-right">Frequently Asked Questions</h2>
+
+      <div class="faq-content">
+        <div class="content-accordi slide-left">
+          <div class="label">
+            <h6>Apa itu Ceritera?</h6>
+            <i class="fi fi-rr-angle-small-down"></i>
+          </div>
+          <div class="content">
+            <p>
+              Ceritera adalah platform yang memungkinkan penulis membagikan
+              cerita mereka, membangun audiens, dan berkesempatan untuk
+              mempublikasikan karya mereka secara resmi.
+            </p>
+          </div>
+        </div>
+
+        <div class="content-accordi slide-left">
+          <div class="label">
+            <h6>Apakah publikasi di Ceritera dipungut biaya?</h6>
+            <i class="fi fi-rr-angle-small-down"></i>
+          </div>
+          <div class="content">
+            <p>
+              Publikasi cerita di Ceritera itu 100% GRATIS!! Cukup ikutin
+              persyaratan dan seleksinnya maka karyamu siap dipajang di rak toko
+              buku ternama!
+            </p>
+          </div>
+        </div>
+
+        <div class="content-accordi slide-left">
+          <div class="label">
+            <h6>Bagaimana Supaya Akunku Bisa Jadi Akun Official?</h6>
+            <i class="fi fi-rr-angle-small-down"></i>
+          </div>
+          <div class="content">
+            <p>
+              Kamu cukup rajin update cerita aja di platform ini, dan buat
+              ceritamu terkenal. Nanti kami akan menghubungi kalian dan tinggal
+              isi form aja buat dapetin label official.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-
-    <!-- CTA Button -->
-    <section>
-
-    </section>
-
 
     <!-- Footer -->
-    <footer>
-        
-    </footer>
+    <footer></footer>
 
     <!-- =============== MAIN SECTION =============== -->
-    
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
     <!-- JavaScript -->
     <script src="js/script.js"></script>
-</body>
+
+    <!-- Lordicons -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+    <!-- Lottie -->
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+  </body>
 </html>
