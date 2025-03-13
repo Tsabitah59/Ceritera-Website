@@ -400,7 +400,6 @@ footer {
     background: var(--bg-color-blue);
     border: 2px solid var(--text-color);
     border-radius: var(--standard-radius);
-    display: flex;
 }
 .footer-atas {
     display: flex;
