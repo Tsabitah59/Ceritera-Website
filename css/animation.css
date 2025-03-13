@@ -26,12 +26,3 @@
 .slide-right.show {
   transform: translateX(0);
 }
-
-.rise-up {
-  transform: translateY(2000px);
-  transition: 800ms ease;
-}
-
-.rise-up.show {
-  transform: translateY(0);
-}
