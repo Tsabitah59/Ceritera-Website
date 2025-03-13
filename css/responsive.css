@@ -1,0 +1,89 @@
+/* Responsive */
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+
+  .wcu-content {
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  .wcu-content:nth-of-type(even) .circle-number {
+    right: 27px;
+  }
+
+  .wcu .card {
+    width: 100%;
+  }
+
+  .features {
+    position: relative;
+  }
+
+  .features-add {
+    position: absolute;
+    opacity: 20%;
+    bottom: 0;
+    z-index: -1;
+    left: -120px;
+  }
+
+  .features-content {
+    filter: drop-shadow(0px 10px 0px 0px rgba(255, 255, 255, 0.7));
+  }
+
+  dotlottie-player {
+    height: 600px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .book-slider-control .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
+  }
+
+  .book-slider-control .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+}
+
+@media screen and (max-width: 911px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 617px) {
+  section {
+    padding: 100px 60px;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  section {
+    padding: 100px 20px;
+  }
+
+  .container .swiper-wrapper {
+    scale: 0.89;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .book-slider-control .swiper-button-next {
+    left: 80% !important;
+    transform: translateX(-80%) !important;
+  }
+
+  .book-slider-control .swiper-button-prev {
+    left: 20% !important;
+    transform: translateX(-20%) !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+}
