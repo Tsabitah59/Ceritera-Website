@@ -1,9 +1,37 @@
 @keyframes show-about {
-    from {
-        padding-block: 0px;
-    }
-    
-    to{
-        padding-block: 60px;
-    }
+  from {
+    padding-block: 0px;
+  }
+
+  to {
+    padding-block: 60px;
+  }
+}
+
+/* Slide Animation */
+.slide-left {
+  transform: translateX(-2000px);
+  transition: 800ms ease;
+}
+
+.slide-left.show {
+  transform: translateX(0);
+}
+
+.slide-right {
+  transform: translateX(2000px);
+  transition: 800ms ease;
+}
+
+.slide-right.show {
+  transform: translateX(0);
+}
+
+.rise-up {
+  transform: translateY(2000px);
+  transition: 800ms ease;
+}
+
+.rise-up.show {
+  transform: translateY(0);
 }
